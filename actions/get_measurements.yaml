@@ -1,5 +1,5 @@
 name: get_measurements
-runner_type: run-python
+runner_type: python-script
 description: Retrieve current measurements for a particular device (cube).
 enabled: true
 entry_point: get_measurements.py

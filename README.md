@@ -16,6 +16,10 @@ Pack which allows integration with [CubeSensors](https://cubesensors.com/) servi
 * ``sensor.device_uid`` - A list of device UIDs for which you want to retrieve the measurements
   for.
 
+**Note** : When modifying the configuration in `/opt/stackstorm/configs/` please
+           remember to tell StackStorm to load these new values by running
+           `st2ctl reload --register-configs`
+
 ## Obtaining API credentials
 
 To obtain the API credentials you first need to request API access as described
